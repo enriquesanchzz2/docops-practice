@@ -1,0 +1,688 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-7.0.1">
+    
+    
+      
+        <title>Practice - Wizeline MkDocs Template</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.1655a90d.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.7fa14f5b.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#000000">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="black" data-md-color-accent="indigo">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#stripe-slides-changes" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Wizeline MkDocs Template" class="md-header__button md-logo" aria-label="Wizeline MkDocs Template">
+      
+  <img src="../images/wizeline_isotype.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wizeline MkDocs Template
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Practice
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="md-header__options">
+      
+    </div>
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Wizeline MkDocs Template" class="md-nav__button md-logo" aria-label="Wizeline MkDocs Template">
+      
+  <img src="../images/wizeline_isotype.png" alt="logo">
+
+    </a>
+    Wizeline MkDocs Template
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Practice
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Practice
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#due-date-wednesday-oct-28th" class="md-nav__link">
+    Due date: Wednesday, Oct 28th
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#due-date-wednesday-oct-28th" class="md-nav__link">
+    Due date: Wednesday, Oct 28th
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="stripe-slides-changes">Stripe Slides: Changes</h1>
+<h2 id="due-date-wednesday-oct-28th">Due date: Wednesday, Oct 28th</h2>
+<h1 id="stripe">Stripe</h1>
+<ul>
+<li>
+<p>[x] <strong>Slide 1:</strong> </p>
+<ul>
+<li>Change the title to: 
+<em>Stripe Program 2020</em></li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 2:</strong> <em>Agenda:</em> </p>
+<ul>
+<li>Divide by sections the list of topics to be presented on the slides, fix its order</li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 3:</strong> <em>Slide’s headings:</em> </p>
+<ul>
+<li>Fuse it with the agenda slide</li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 4:</strong>  <em>Problem definition:</em> </p>
+<ul>
+<li>Defined the problem to be resolved. 
+Also, this slide could change its name to Goals or Peak points to achieve</li>
+</ul>
+</li>
+</ul>
+<p>The identified problems that the Stripe program seeks to fix are:</p>
+<ul>
+<li>Custom solutions in engineering increase the final cost.</li>
+<li>The knowledge obtained is not documented to use for further development.</li>
+<li>Collaborators do not stay long in the project.</li>
+<li>
+<p>The Stripe models offered by Wizeline aren’t unified</p>
+</li>
+<li>
+<p>[x] <strong>Slide 5:</strong>  Problem solutions</p>
+</li>
+</ul>
+<p>The identified problems that the Stripe program seeks to fix are:</p>
+<ul>
+<li>Custom solutions implemented in engineering projects increase the final cost.</li>
+<li>The knowledge obtained is not documented to use for further development.</li>
+<li>Collaborators do not stay long in the project.</li>
+<li>
+<p>The Stripe models offered by Wizeline aren’t unified</p>
+</li>
+<li>
+<p>[x] <strong>Slide 6:</strong> <em>Program Strategy Alignment:</em> </p>
+<ul>
+<li>
+<p>Divide the 3 different section onto an individual slide, also, the text on the bottom of the slide could be the slide lead line to the 3 following ones:m </p>
+<ul>
+<li>
+<p>[x] <strong>Slide 6.1:</strong>  <em>Revenue Recognition:</em>
+Point out every point
+Bold the words are they are written 
+Red background</p>
+</li>
+<li>
+<p>[x] <strong>Slide 6.2:</strong> <em>Profitability:</em> </p>
+</li>
+<li>Point out every point</li>
+<li>Bold the words are they are written
+<strong>Bullet points:</strong> </li>
+<li>rewrite, divide into two different ones</li>
+<li>Divide into three different ones</li>
+<li>Rewrite to not use your</li>
+<li>
+<p>Rewrite to not use your
+Yellow background</p>
+</li>
+<li>
+<p>[x] <strong>Slide 6.3:</strong> <em>Quality:</em> 
+<strong>Bullet points:</strong></p>
+</li>
+<li>Divide into two different ones</li>
+<li>Rewrite to highlight better our engineering proposition</li>
+<li>Totally rewrite, Make it understandle</li>
+<li>Change verbs (Optional) </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 7:</strong> <em>Program Operating Model:</em> </p>
+<ul>
+<li>Design a better diagram</li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 8:</strong> <em>Vision:</em> </p>
+<ul>
+<li>Change to infinitive to demonstrate is a vision. </li>
+<li>Add to the beginning of the presentation </li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 9:</strong> <em>Goals:</em> </p>
+<ul>
+<li>Change the design of how the goals are presented </li>
+<li>Homogenize the way the goals are presented, the way the verbs are conjugated </li>
+<li>Should go after the vision</li>
+</ul>
+</li>
+</ul>
+<p><strong>Slide 10:</strong> <em>Program Governance:</em> 
+    * Rewrite absolutely everything!
+    * Should be before the vision and goals 
+    * Simplify the text, get the point across. It could be divided into Wizeline Philosophy and program governance</p>
+<p><strong>Slide 11:</strong> <em>Stripe Program Governance - E2E:</em> 
+Comes from the blueprint</p>
+<pre><code>* It should be divided into a different slide for each of the sections 
+* Each of them should also be divided by the owner of the document 
+* The background could be the same color scheme that has the line
+
+**Slide 11.1:** *Pre-Sales:*
+</code></pre>
+<pre><code>Stripe:
+Introduces Client
+Creates Account 
+
+
+Wizeline:
+Cloncludes Sales process
+Validates Account   
+</code></pre>
+<pre><code>**Slide 11.2:** *Planning:*
+</code></pre>
+<pre><code>Wizeline:
+Kick off
+Review client doc
+Stripe API review 
+Define system type
+Stakeholder map
+architecutre
+payments flow
+back log
+custom tool
+
+Client:
+
+
+Both:
+Checklist requ.
+review project
+</code></pre>
+<pre><code>**Slide 11.3:** *Implementation:*
+</code></pre>
+<pre><code>Wizeline:
+Review Account Setup Checklist
+Test client flows
+Training materials
+Deployment Staging
+
+Both: (depends if it is only consulting or also development)
+API Calls
+Payment flows testing
+</code></pre>
+<pre><code>**Slide 11.4:** *Delivering:*
+</code></pre>
+<pre><code>Wizeline:
+Training materials 2
+Best practice doc
+Monitoring 
+Payment flow testing (if it is only consulting)
+customer migration
+
+Both:
+Go live
+</code></pre>
+<pre><code>**Slide 11.5:** *Release:*
+</code></pre>
+<pre><code>Wizeline: 
+Support for 2 weeks
+Release document
+project closure 
+
+Client:
+Project feedback
+</code></pre>
+<ul>
+<li>
+<p>[x] <strong>Slide 12:</strong> <em>Program Benefit Management:</em> </p>
+<ul>
+<li>Use headlines instead of bullet points to highlight the information </li>
+<li>Use adjectives to start each sentence instead of -ing verbs</li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 13:</strong> <em>Program Stakeholder Management:</em> 
+        * rewrite the line in to a more understandable one
+        * put the pictures in different slides???</p>
+</li>
+</ul>
+<p><strong>Slide 14:</strong> <em>Under construction???</em></p>
+<ul>
+<li>
+<p>[x] n<strong>Slide 15:</strong> <em>Program Communications:</em> </p>
+<ul>
+<li>Stays as it is </li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 16:</strong> <em>Program Information Management</em> </p>
+<ul>
+<li>Rewrite </li>
+<li>Link to the ISO norm</li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 17:</strong> <em>Program Procurement Management</em> </p>
+<ul>
+<li>Link to the Wizeline Procurement policies doc</li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 18:</strong> <em>Programa Quality Management</em> </p>
+<ul>
+<li>Reword the way the idea is written </li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 19:</strong> <em>Program Risk Management</em> </p>
+<ul>
+<li>Parallelism </li>
+<li>Passive voice </li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 20:</strong> <em>Program Schedule Management:</em> </p>
+<ul>
+<li>Stays as it is</li>
+</ul>
+</li>
+<li>
+<p>[x] <strong>Slide 21:</strong> <em>Program Scope Management:</em> </p>
+<ul>
+<li>Could be divided into 3 columns </li>
+</ul>
+</li>
+</ul>
+<p><strong>Slide 22:</strong> <em>Program Documentation Strategy:</em> 
+From here to slide 24 it’s a whole different section. 
+MUST HAVE a subsection tittle slide</p>
+<pre><code>**Slide 22.1:** *Goals*
+**Slide 22.2:** *Structure*
+**Slide 22.3:** *Program Artifacts*
+</code></pre>
+<hr />
+<h1 id="stripe-slides-new-order">Stripe Slides: New Order</h1>
+<ol>
+<li>Agenda</li>
+<li>Program Statements<ol>
+<li>Vision</li>
+<li>Goals</li>
+<li>Problems</li>
+<li>Solutions Proposed</li>
+</ol>
+</li>
+<li>Governance<ol>
+<li>Wizeline’s</li>
+<li>Program objective</li>
+<li>E2E Data governance<ol>
+<li>Pre-sales</li>
+<li>Planning</li>
+<li>Implementation</li>
+<li>Delivering</li>
+<li>Release</li>
+</ol>
+</li>
+</ol>
+</li>
+<li>Strategy Alignment<ol>
+<li>Revenue Recognition</li>
+<li>Profitability</li>
+<li>Quality</li>
+</ol>
+</li>
+<li>Operating Model</li>
+<li>Benefit Man.</li>
+<li>Stakeholder Man.</li>
+<li>Communication</li>
+<li>Information</li>
+<li>Procurement</li>
+<li>Quality</li>
+<li>Risk</li>
+<li>Schedule</li>
+<li>Scope</li>
+<li>Documentation strategy<ol>
+<li>Goals</li>
+<li>Structure</li>
+<li>Program Artifacts]</li>
+</ol>
+</li>
+</ol>
+<hr />
+<h1 id="changes">Changes</h1>
+<h2 id="slide-4">Slide 4:</h2>
+<ul>
+<li>
+<p>For engineering projects, custom solutioning every time = higher cost ( stay &lt;$100K)</p>
+</li>
+<li>
+<p>Ability to retain, document, leverage knowledge gained</p>
+</li>
+<li>
+<p>Retain People</p>
+</li>
+<li>
+<p>Stripe Models</p>
+<ul>
+<li>
+<p>Consulting</p>
+</li>
+<li>
+<p>Consulting and design</p>
+</li>
+<li>
+<p>Full Service Implementation</p>
+</li>
+<li>
+<p>Developer Certifications</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>A meeting with Garima and Bob to create the client profile </p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        <a href="../about/" class="md-footer__link md-footer__link--prev" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              About
+            </div>
+          </div>
+        </a>
+      
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}, "search": "../assets/javascripts/workers/search.f5903571.min.js", "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.4e3fea51.min.js"></script>
+      
+    
+  </body>
+</html>
