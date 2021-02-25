@@ -1,6 +1,7 @@
 # Stripe Slides: Changes
 ## Due date: Wednesday, Oct 28th
 #Stripe
+## A new note
 
 - [x] **Slide 1:** 
 	* Change the title to: 
